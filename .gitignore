@@ -6,7 +6,6 @@ target
 *.iml
 
 ## MAVEN ##
-/target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -17,6 +16,6 @@ buildNumber.properties
 .mvn/timing.properties
 
 ## ECLIPSE ##
-.settings/
-*.classpath
-*.project
+.settings
+.classpath
+.project
