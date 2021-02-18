@@ -50,7 +50,6 @@ public class GameScoreTest {
 		} catch (HangmanException e) {
 			assertEquals(e.getMessage(), HangmanException.INVALID_VALUE);
 		}
-
 	}
 
 	@Test
@@ -61,7 +60,6 @@ public class GameScoreTest {
 		} catch (HangmanException e) {
 			assertEquals(e.getMessage(), HangmanException.INVALID_VALUE);
 		}
-
 	}
 
 	@Test
@@ -72,7 +70,6 @@ public class GameScoreTest {
 		} catch (HangmanException e) {
 			assertEquals(e.getMessage(), HangmanException.INVALID_VALUE);
 		}
-
 	}
 
 	@Test
@@ -87,7 +84,6 @@ public class GameScoreTest {
 			assertEquals(80, a2);
 		} catch (HangmanException e) {
 		}
-
 	}
 
 	@Test
@@ -102,7 +98,6 @@ public class GameScoreTest {
 			assertEquals(10, a2);
 		} catch (HangmanException e) {
 		}
-
 	}
 
 	@Test
@@ -117,7 +112,6 @@ public class GameScoreTest {
 			assertEquals(0, a2);
 		} catch (HangmanException e) {
 		}
-
 	}
 
 	@Test
@@ -127,13 +121,11 @@ public class GameScoreTest {
 			int a = g.calculateScore(5, 10);
 			int a1 = g.calculateScore(5, 11);
 			int a2 = g.calculateScore(0, 0);
-
 			assertEquals(0, a);
 			assertEquals(0, a1);
 			assertEquals(0, a2);
 		} catch (HangmanException e) {
 		}
-
 	}
 
 	@Test
@@ -172,6 +164,5 @@ public class GameScoreTest {
 			assertEquals(0, a2);
 		} catch (HangmanException e) {
 		}
-
 	}
 }
