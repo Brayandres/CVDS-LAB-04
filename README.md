@@ -2,4 +2,4 @@
 
 ## Procesos de Desarrollo de Software
 
-### Estudiante: Brayan macias
+### Estudiante: Brayan Macias
